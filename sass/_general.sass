@@ -1,0 +1,76 @@
+*
+    box-sizing: border-box
+
+body
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), #eee7e1
+    overflow-x: hidden
+
+.container
+    max-width: 1269px
+    padding: 0 15px
+    margin: 0 auto
+
+h1
+    font-family: "Inter", sans-serif
+    font-weight: 500
+    font-size: 62px
+    line-height: 130%
+    color: $black
+
+/* Comtent */
+
+.main-section
+
+    h1
+        margin-bottom: 28px
+
+    &__tab-btn
+        margin-bottom: 16px
+        .tab-btn
+            margin-right: 16px
+            &:last-child
+                margin-right: 0
+
+    &__search
+        margin-bottom: 115px
+
+    &__tab-content
+        position: relative
+        margin-bottom: 115px
+
+.search
+    margin-bottom: 16px
+    display: flex
+    justify-content: space-between
+
+    input
+        border: 1.50px solid #a68144
+        border-radius: 14px
+        width: 82%
+        height: 70px
+        padding: 20px
+        font-family: "Inter", sans-serif
+        font-weight: 500
+        font-size: 18px
+        letter-spacing: 0.01em
+        color: #92929d
+
+        margin-right: 24px
+
+    button
+        border: none
+        border-radius: 14px
+        padding: 15px 40px
+        width: 188px
+        height: 70px
+        background: $main
+
+        font-family: "Inter", sans-serif
+        font-weight: 500
+        font-size: 20px
+        color: #fff
+        cursor: pointer
+        transition: .3s
+
+        &:hover
+            background: $main-hover
